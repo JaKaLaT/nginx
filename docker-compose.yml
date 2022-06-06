@@ -1,0 +1,7 @@
+version: "3.7"
+
+services:
+    client:
+        image: nginx:tietoNginx
+        ports:
+            - 8765:5678
